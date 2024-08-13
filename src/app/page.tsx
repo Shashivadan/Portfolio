@@ -1,5 +1,3 @@
-import { CustumCursor } from "@/components/CustomCursor";
-
 export default function page() {
   return (
     <div>
