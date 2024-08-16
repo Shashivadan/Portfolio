@@ -7,8 +7,8 @@ import icon from "./Icon.jpg";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "portfolio",
-  description: "portfolio",
+  title: "Portfolio",
+  description: "Portfolio",
 };
 
 export default function RootLayout({
