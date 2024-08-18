@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 import icon from "./Icon.jpg";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           src="https://cloud.umami.is/script.js"
           data-website-id="19513031-3eef-49c9-9107-beff726b3a5a"
         ></script>
+        <Analytics />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
